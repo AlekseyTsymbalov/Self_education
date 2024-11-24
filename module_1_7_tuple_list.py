@@ -5,3 +5,9 @@ list_1.extend(["Gavrusha", True]) # Если поместить аргумент
 print(list_0)
 print(list_1)
 print("Mysya" in list_1)
+
+mail_1 = "AlekseyTsymbalov@yahoo.com"
+if "@" in mail_1:
+    print(True)
+else:
+    print("Ошибка адреса")
