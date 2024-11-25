@@ -6,8 +6,8 @@ print(list_0)
 print(list_1)
 print("Mysya" in list_1)
 
-mail_1 = "AlekseyTsymbalov@yahoo.com"
-if "@" in mail_1:
+mail_1 = input("Enter you mail adress: ")
+if "@" in mail_1 and mail_1.endswith((".com", ".ru", ".net")):
     print(True)
 else:
     print("Ошибка адреса")
