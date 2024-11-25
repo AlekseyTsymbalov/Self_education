@@ -14,7 +14,7 @@ list_002 = ["Филя", "Муся", "Гаврюша", "Кот"]
 print(list_002[0:3])
 
 mail_1 = input("Enter you mail adress: ")
-if "@" in mail_1 and mail_1.endswith((".com", ".ru", ".net")):
+if "@" in mail_1 and mail_1.endswith((".com", ".ru", ".net")): #
     print(True)
 else:
     print("Ошибка адреса")
