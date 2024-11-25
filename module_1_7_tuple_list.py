@@ -3,7 +3,7 @@ list_0.extend("Bagration") # Если передать один аргумент
 list_1 = ["Filya", "Mysya"]
 list_1.extend(["Gavrusha", True]) # Если поместить аргументы в [ ], то он их объединит
 list_01 = ["Яблоня", "Груша", "Слива", "Абрикос"]
-print(list_01)
+print(list_01); print("Черешня" not in list_01)
 list_01[0] = "Черешня"
 print(list_01)
 print("Черешня" not in list_01)
