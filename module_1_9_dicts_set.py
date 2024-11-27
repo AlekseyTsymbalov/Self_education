@@ -1,5 +1,5 @@
-# phone_book = {"Irina": 89616930833, "Alexsey": 89963576864, "Sasha": 89692915867}
-# print(phone_book)
+phone_book = {"Irina": 89616930833, "Alexsey": 89963576864, "Sasha": 89692915867}
+print(phone_book)
 # print(phone_book["Irina"]) # Выводим значение по ключу
 # phone_book["Irina"] = 89176403198 # Произвели замену значения по ключу
 # phone_book["Filya"] = 89608841102 # Если обратиться к несуществующему ключу, то он появится в словаре
@@ -42,22 +42,31 @@
 #
 # print(None)
 
-print("Работа со словарём!")
-my_dict = {"Filya": 2019, "Mysya": 2011, "Gavrusha": 1998}
-print("Изначальный словарь: ", my_dict)
-print(f"Существующее значение: {my_dict["Filya"]}")
-print(f"Несуществующее значение: {my_dict.get("Barsik"), "Такого ключа Barsik нет"}")
-delet_name = my_dict.pop("Gavrusha")
-print(f"Deleted value: {delet_name}")
-my_dict.update({"Murka": 1994, "Pirat": 1993})
-print("Изменённый словарь: ", my_dict)
-
-print(None)
-
-print("Работа с множеством!")
-my_set = {1, "Яблоко", 42.314,1, "Яблоко", 42.314,}
-print("Set: ", my_set)
-my_set.add("Черешня")
-my_set.update((5.6, 99, 15))
-my_set.discard(15)
-print("Изменённое множество: ", my_set)
+# print("Работа со словарём!")
+# my_dict = {"Filya": 2019, "Mysya": 2011, "Gavrusha": 1998}
+# print("Изначальный словарь: ", my_dict)
+# print(f"Существующее значение: {my_dict["Filya"]}")
+# print(f"Несуществующее значение: {my_dict.get("Barsik"), "Такого ключа Barsik нет"}")
+# delet_name = my_dict.pop("Gavrusha")
+# print(f"Deleted value: {delet_name}")
+# my_dict.update({"Murka": 1994, "Pirat": 1993})
+# print("Изменённый словарь: ", my_dict)
+#
+# print(None)
+#
+# print("Работа с множеством!")
+# my_set = {1, "Яблоко", 42.314,1, "Яблоко", 42.314,}
+# print("Set: ", my_set)
+# my_set.add("Черешня")
+# my_set.update((5.6, 99, 15))
+# my_set.discard(15)
+# print("Изменённое множество: ", my_set)
+#
+# bus_ = 17, 99, 78
+# my_set.add(bus_)
+# print(my_set)
+# my_set.add((105, 210))
+# print(my_set)
+# # Принимает один аргумент update
+# my_set.update([777, 999, 444]) # Метод этот добавляет всё по элементно... Список или кортеж не добавить через update
+# print(my_set)
