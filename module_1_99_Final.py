@@ -9,4 +9,4 @@ for digits in grades:
     average.append(mean(digits))
 
 
-print(dict(zip(students, average)))
+print(dict(zip(students, average))) # Готово
